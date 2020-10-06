@@ -11,7 +11,7 @@ Follow instructions to install the latest version of python for your platform in
 
 #### Virtual Environment
 I recommend working within a virtual environment whenever using Python for projects. This keeps your dependencies for each project separated and organized. Instructions for setting up a virtual environment for your platform can be found in the [Python Docs](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/).
-If you don't want to read the [Docs](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/), you could install virtual environment by:
+If you don't want to read the [Python Docs](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/), you could install virtual environment by:
 
 on macOS and Linux
 ```
