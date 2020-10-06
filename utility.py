@@ -29,7 +29,7 @@ def print_films_options(films):
 # Show films menu helper function to show each movie
 def _print_films_options(films):
     for i in range(0, len(films)+1):
-        # Back to menu option
+        # Back to menu
         if i == len(films):
             print('{index}- Back to films menu\n'.format(index=i+1))
             return
@@ -48,6 +48,7 @@ def print_people_options(characters):
             print('\n\n{index}- Back to characters menu\n'.format(index=i+1))
             return
 
+        # Show only 3 items per line
         if i % 3 == 0:
             print('')
 

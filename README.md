@@ -2,6 +2,7 @@
 Application that should allow the user to find all the characters/people in a specific Star Wars movie
 Topics Resources.
 
+
 ## Getting Started
 
 ### Installing Dependencies
@@ -31,6 +32,30 @@ On Windows
 ```
 py -m venv env
 ```
+finally you have to ***Activate*** the virtual environment by:
+
+On macOS and Linux
+```
+source env/bin/activate
+```
+On Windows
+```
+.\env\Scripts\activate
+```
+You can confirm you’re in the virtual environment by checking the location of your Python interpreter, it should point to the *env* directory.
+
+On macOS and Linux
+```
+which python
+```
+On Windows
+```
+where python
+```
+You could leave the virtual environment by:
+```
+deactivate
+```
 
 #### PIP Dependencies
 Once you have your virtual environment setup and running, install dependencies by making **sure** you are in the right folder for the project. then, running:
@@ -38,6 +63,7 @@ Once you have your virtual environment setup and running, install dependencies b
 pip install -r requirements.txt
 ```
 This will install all of the required packages within the `requirements.txt` file.
+
 
 ## Running the application
 ```

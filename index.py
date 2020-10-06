@@ -49,9 +49,6 @@ def show_film(films, index):
         except Exception as e:
             show_error_message(e)
 
-    # Define user input to choose character
-    user_input = -1
-
     while True:
         # Show all the people in certain film
         print_people_options(characters)
@@ -66,7 +63,7 @@ def show_film(films, index):
         '''
         if user_input <= len(characters) and user_input > 0:
             show_character(films, characters[user_input-1])
-        # Back to the menu option
+        # Back to the films menu
         elif user_input == len(characters)+1:
             break
         # User enter wrong number
@@ -84,9 +81,6 @@ def show_all_films():
     except Exception as e:
         show_error_message(e)
 
-    # Define user input to choose movie
-    user_input = -1
-
     while True:
         # Get films
         films = films_data['results']
@@ -103,7 +97,7 @@ def show_all_films():
         '''
         if user_input <= len(films) and user_input > 0:
             show_film(films, user_input-1)
-        # Back to the menu option
+        # Back to the main menu
         elif user_input == len(films)+1:
             break
         # User enter wrong number
