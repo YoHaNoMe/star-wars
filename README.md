@@ -12,6 +12,7 @@ Follow instructions to install the latest version of python for your platform in
 #### Virtual Environment
 I recommend working within a virtual environment whenever using Python for projects. This keeps your dependencies for each project separated and organized. Instructions for setting up a virtual environment for your platform can be found in the [Python Docs](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/).
 If you don't want to read the [Docs](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/), you could install virtual environment by:
+
 on macOS and Linux
 ```
 python3 -m pip install --user virtualenv
@@ -21,6 +22,7 @@ on Windows
 py -m pip install --user virtualenv
 ```
 then you have to create the virtual environment by:
+
 On macOS and Linux:
 ```
 python3 -m venv env
