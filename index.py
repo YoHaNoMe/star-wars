@@ -5,7 +5,12 @@ from utility import *
 
 # Show character
 def show_character(films, character):
+    # Get a list of films indexes
     films_indexes = re.findall(r'\d+', ''.join(character['films']))
+    '''
+    Get a string of films titles
+    by using films_indexes
+    '''
     films_titles = ', '.join(
         [films[int(film_index)-1]['title'] for film_index in films_indexes]
     )

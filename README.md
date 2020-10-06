@@ -4,6 +4,8 @@ Topics Resources.
 
 
 ## Getting Started
+I follow [PEP8 Guide](https://www.python.org/dev/peps/pep-0008/) to write the code.
+You can check that the code is following *PEP 8* by *pasting* your code to [PEP8 online checker](http://pep8online.com/)
 
 ### Installing Dependencies
 
