@@ -73,4 +73,4 @@ python3 main.py
 ```
 
 ## Android application
-![GIF](starWars.gif | width=50)
+<img src="starWars.gif" width="40" height="40" />
