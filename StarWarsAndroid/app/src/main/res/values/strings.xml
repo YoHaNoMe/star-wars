@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">StarWarsApplication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="character_name">Name: %s</string>
+    <string name="character_height">Height: %s</string>
+    <string name="character_mass">Mass: %s</string>
+    <string name="character_hair_color">Hair Color: %s</string>
+    <string name="character_skin_color">Skin Color: %s</string>
+    <string name="character_eye_color">Eye Color: %s</string>
+    <string name="character_birth_year">Birth Year: %s</string>
+    <string name="character_gender">Gender: %s</string>
+    <string name="character_films">Films: %s</string>
+</resources>
