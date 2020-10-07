@@ -71,3 +71,6 @@ This will install all of the required packages within the `requirements.txt` fil
 ```
 python3 main.py
 ```
+
+## Android application
+[GIF](starWars.gif)
