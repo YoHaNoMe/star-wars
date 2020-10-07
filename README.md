@@ -73,4 +73,4 @@ python3 main.py
 ```
 
 ## Android application
-<img src="starWars.gif" width="200" height="300" />
+<img src="starWars.gif" width="300" height="400" />
