@@ -73,4 +73,4 @@ python3 main.py
 ```
 
 ## Android application
-[GIF](starWars.gif)
+[GIF](starWars.gif =100x100)
